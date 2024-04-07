@@ -117,12 +117,28 @@
     "s-20.6": "tt-cli run 20.6 --solution",
     "e-20.7": "tt-cli run 20.7",
     "s-20.7": "tt-cli run 20.7 --solution",
+<<<<<<< Updated upstream
     "e-07.5": "tt-cli run 07.5",
     "s-07.5": "tt-cli run 07.5 --solution",
+=======
+<<<<<<< HEAD
+=======
+    "e-07.5": "tt-cli run 07.5",
+    "s-07.5": "tt-cli run 07.5 --solution",
+>>>>>>> 32b7e0ef107aa49a2c0a20df625a19998be64a40
+>>>>>>> Stashed changes
     "e-00": "tt-cli run 00",
     "s-00": "tt-cli run 00 --solution",
     "e-01.5": "tt-cli run 01.5",
     "s-01.5": "tt-cli run 01.5 --solution",
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    "e-07.5": "tt-cli run 07.5",
+    "s-07.5": "tt-cli run 07.5 --solution",
+=======
+>>>>>>> 32b7e0ef107aa49a2c0a20df625a19998be64a40
+>>>>>>> Stashed changes
     "e-22.5": "tt-cli run 22.5",
     "s-22.5": "tt-cli run 22.5 --solution",
     "e-25.5": "tt-cli run 25.5",

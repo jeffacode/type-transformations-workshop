@@ -6,8 +6,12 @@ import { Equal, Expect } from "../helpers/type-utils";
 
 type Path = "Users/John/Documents/notes.txt";
 
-type SplitPath = unknown;
+type Split<T> = T extends `${infer Element}/${infer SubString}`
+  ? [Element, ...Split<SubString>]
+  : [T];
+
+type SplitPath = Split<Path>;
 
 type tests = [
-  Expect<Equal<SplitPath, ["Users", "John", "Documents", "notes.txt"]>>,
+  Expect<Equal<SplitPath, ["Users", "John", "Documents", "notes.txt"]>>
 ];

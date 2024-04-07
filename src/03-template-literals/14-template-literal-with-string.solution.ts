@@ -10,7 +10,6 @@ goToRoute("/admin/users");
 
 // Should error:
 
-// @ts-expect-error
-goToRoute("users/1");
+goToRoute("/users/1");
 // @ts-expect-error
 goToRoute("http://facebook.com");
